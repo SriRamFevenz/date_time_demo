@@ -17,6 +17,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            position: relative;
         }
 
         .container {
@@ -57,7 +58,15 @@
             margin: 5rem 0;
             font-size: 7rem;
         }
+        .name{
+            position: fixed;
+            color: #ccc;
+            opacity: .2;
+            left: 50%;
+            transform: translate(-50%,50%);
+            font-variant: small-caps;
 
+        }
         @media screen and (max-width:768px) {
             body{
                 margin: 1rem 0;
@@ -91,6 +100,7 @@
             <div class="ampm"></div>
         </div>
     </div>
+    <h1 class="name">Sriram</h1>
 
 
     <script>
